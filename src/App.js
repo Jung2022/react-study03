@@ -2,7 +2,9 @@
 import './App.css';
 //import BSTest1 from './bs/BSTest1';
 // import BSTest2 from './bs/BSTest2';
-import Home from './Home';
+// import Home from './Home';
+// import Home2 from './Home2';
+import Gournet from './Gournet/Gournet';
 
 // 따로따로 추가방법
 // import Button from 'react-bootstrap/Button';
@@ -39,7 +41,9 @@ function App() {
     <div className="App">
       {/* <BSTest1/> */}
       {/* <BSTest2 /> */}
-      <Home/>
+      {/* <Home/> */}
+      {/* <Home2/> */}
+      <Gournet />
     </div>
   );
 }
