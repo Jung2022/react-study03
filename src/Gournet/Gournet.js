@@ -32,7 +32,7 @@ function Gournet() {
         <br />
         <br />
         {/* about */}
-        <div className="row">
+        <div className="row about">
           <div className="col mx-auto">
             <div className="row">
               <div className="col-sm-4 offset-sm-2 p-3 row">
@@ -47,7 +47,7 @@ function Gournet() {
                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur.We only use seasonal ingredients.
+                  pariatur.We only use <point>seasonal</point> ingredients.
                 </p>
                 <p>
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
@@ -63,7 +63,7 @@ function Gournet() {
         <hr />
         <br />
         {/* menu */}
-        <div className="row">
+        <div className="row menu">
           <div className="col mx-auto">
             <div className="row">
               <div className="col-sm-4 offset-sm-2 p-3">
@@ -89,7 +89,7 @@ function Gournet() {
         <hr />
         <br />
         {/* contact */}
-        <div className="col-sm-8 offset-sm-2">
+        <div className="col-sm-8 offset-sm-2 contact">
           <h1>Contact</h1>
           <p>
             We offer full-service catering for any event, large or small. We understand your needs
@@ -101,11 +101,19 @@ function Gournet() {
             You can also contact us by phone 00553123-2323 or email catering@catering.com, or you
             can send us a message here:
           </p>
-          <input type="text" class="form-control" placeholder="Name" />
-          <input type="text" class="form-control" placeholder="How may people" />
-          <input type="datetime-local" class="form-control" value="2022-04-27T20:00" />
-          <input type="text" class="form-control" placeholder="Message/Special requirements" />
-          <button type="button">SEND MESSAGE</button>
+          <input type="text" class="form-control-plaintext" placeholder="Name" />
+          <input type="text" class="form-control-plaintext" placeholder="How may people" />
+          <input type="datetime-local" class="form-control-plaintext" value="2022-04-27T20:00" />
+          <input
+            type="text"
+            class="form-control-plaintext"
+            placeholder="Message/Special requirements"
+          />
+          <span></span>
+          <br />
+          <button className="btn btn-light" type="button">
+            SEND MESSAGE
+          </button>
         </div>
       </main>
       {/* footer */}

@@ -6,3 +6,20 @@ nav a:hover{
     color: black;
     background-color: gray;
 }
+
+.contact, .about p, .menu p, .menu h3{
+    text-align: left;
+}
+
+.menu p{
+    font-size: 12px;
+    color: gray;
+}
+
+.contact p{
+    font-size: 12px;
+}
+
+.contact h5{
+    color: rgb(35, 101, 101);
+}
